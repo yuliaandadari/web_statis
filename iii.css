@@ -30,7 +30,7 @@
    transition: background-color 0.5s ease;
  }
  nav.putih {
-   background-color: #fff;
+   background-color: #f0e8e8;
  }
  nav .logo {
    float: left;
@@ -40,7 +40,7 @@
  }
  nav .logo img {
    vertical-align: middle;
-   width: 120px;
+   width: 200px;
  }
  
  nav .menu {
@@ -54,19 +54,22 @@
    margin: 0;
    padding: 0;
    display: flex;
+   float: left;
+   line-height: 60px;
  }
  
  nav .menu ul li {
    list-style-type: none;
    float: left;
-   line-height: 60px;
+   line-height: 100px;
  }
  
  nav ul li a {
    color: #fff;
    text-align: center;
-   padding: 0px 16px 0px 16px;
+   padding: 0px 10px 0px 10px;
    text-decoration: none;
+   font-size: large;
  }
  
  nav ul li a:hover {
@@ -190,9 +193,7 @@
     text-align: center;
     color: #364f6b;
  }
- #aboutus,
- #team,
- #blog {
+ #aboutus {
    text-align: center;
  }
  section p.ringkasan {
@@ -218,48 +219,36 @@
  section.abuabu {
    background-color: #f5f6f6;
  }
- .support,
- .tim,
- .blog {
+ .visi-misi {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
  }
- .support h6,
- .tim h6 {
-   margin: 0px;
-   margin-top: 20px;
-   padding: 0px;
-   font-size: 18px;
-   font-weight: bold;
- }
- .support img {
-   width: 50px;
- }
- .support div,
+
+ /* .support div,
  .tim div {
    text-align: center;
    width: 26%;
- }
- section#gallery {
+ } */
+ /* section#gallery {
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    overflow: hidden;
    padding: 10px 0px 10px 0px;
- }
- section#gallery div {
+ } */
+ /* section#gallery div {
    padding: 10px;
- }
- section#gallery div img {
+ } */
+ /* section#gallery div img {
    height: 100px;
    border-radius: 5px;
- }
- section#gallery div img:hover {
+ } */
+ /* section#gallery div img:hover {
    transition: all 0.2s ease-in-out;
    transform: scale(1.1);
- }
- section.quote {
+ } */
+ /* section.quote {
    background: url("asset/background-bromo.jpg") no-repeat;
    background-attachment: fixed;
    background-position: center;
@@ -269,18 +258,18 @@
    font-size: 20px;
    font-style: italic;
    padding: 100px;
- }
- section.quote .layar-dalam p {
+ } */
+ /* section.quote .layar-dalam p {
    display: inline;
    background: url("asset/quote-icon.png") no-repeat;
    padding: 40px;
- }
- .tim img {
+ } */
+ /* .tim img {
    width: 100%;
    box-shadow: 0px -10px 30px #ccc;
    border-radius: 5px;
- }
- .blog .area {
+ } */
+ .visi-misi .area {
    width: 47%;
    box-shadow: 0px -10px 30px #ccc;
    border-radius: 5px;
@@ -288,28 +277,28 @@
    flex-direction: row;
    justify-content: space-between;
  }
- .blog div.area div {
+ .visi-misi div.area div {
    width: 50%;
  }
- .blog .area .gambar {
+ .visi-misi .area .gambar {
    border-radius: 5px 0px 0px 5px;
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
    height: 300px;
  }
- .blog .area .text article {
+ .visi-misi .area .text article {
    padding: 40px;
  }
- .blog .area .text article h4 {
+ .visi-misi .area .text article h4 {
    margin: 0px;
  }
- .blog .area .text article a {
+ .visi-misi .area .text article a {
    color: #333;
    text-decoration: none;
    transition: color 0.5s ease;
  }
- .blog .area .text article a:hover {
+ .visi-misi .area .text article a:hover {
    color: #ccc;
  }
  footer {
@@ -345,11 +334,11 @@
 }
 
 .slide-1{
-   background: url(image/ASIA.jpg);
+   background: url(image/asia.jpg);
 }
 
 .slide-2{
-   background: url(image/eropaa.jpg);
+   background: url(image/europe.jpeg);
 }
 .slide-3{
    background: url(image/africa.jpg);
@@ -358,7 +347,7 @@
    background: url(image/australia.jpg);
 }
 .slide-5{
-   background: url(image/amerika.jpg);
+   background: url(image/america.jpg);
 }
 
 .slide{
@@ -488,13 +477,13 @@ form button {
    .tombol-menu {
      display: flex;
    }
-   .blog .area {
+   .visi-misi .area {
      display: block;
    }
-   .blog div.area div {
+   .visi-misi div.area div {
      width: 100%;
    }
-   .blog .area .gambar {
+   .visi-misi .area .gambar {
      border-radius: 5px 5px 0px 0px;
      height: 200px;
    }
